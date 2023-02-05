@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.60">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/images/logo.png"><title>YuukaBot-v6</title><meta name="description" content="高性能の跨平台Bot">
+    <link rel="preload" href="/YuukaBot-docs/assets/style-a5c7b6b2.css" as="style"><link rel="stylesheet" href="/YuukaBot-docs/assets/style-a5c7b6b2.css">
+    <link rel="modulepreload" href="/YuukaBot-docs/assets/app-315dd01b.js"><link rel="modulepreload" href="/YuukaBot-docs/assets/framework-ea2a9e6e.js"><link rel="modulepreload" href="/YuukaBot-docs/assets/404.html-f9875e7b.js"><link rel="modulepreload" href="/YuukaBot-docs/assets/404.html-27cb4439.js"><link rel="prefetch" href="/YuukaBot-docs/assets/index.html-2d8beb21.js" as="script"><link rel="prefetch" href="/YuukaBot-docs/assets/index.html-d5a2f961.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>呜哇，你怎么到这里来的</blockquote><a href="/YuukaBot-docs/" class="">回到主页</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/YuukaBot-docs/assets/app-315dd01b.js" defer></script>
+  </body>
+</html>
